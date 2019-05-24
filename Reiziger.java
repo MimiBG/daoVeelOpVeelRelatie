@@ -14,11 +14,6 @@ public class Reiziger {
 		this.achternaam = achternaam;
 		this.geboortedatum = achternaam;
 		
-	}
-
-	public Reiziger() {
-		// TODO Auto-generated constructor stub
-	}
 
 	public int getReizigerID() {
 		return reizigerID;
