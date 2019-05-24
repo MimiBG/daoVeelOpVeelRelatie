@@ -32,7 +32,7 @@ public class Main3 {
 
 		// Select statement uit ov_chipkaart_product en ov_chipkaart en product met id = 35283
 		System.out.println(
-				"\nOVChipkaart_Product rijen zoeken uit tabel ov_chipkaart_product en ov_chipkaart en product met id 1111111111");
+				"\nOVChipkaart_Product rijen zoeken uit tabel ov_chipkaart_product en ov_chipkaart en product met id 35283");
 		for (OVChipkaart_Product ov_p : ov_pDAO.findByIdInBothTables(35283)) {
 			System.out.println("ov_productID: " + ov_p.getOvproductID());
 			System.out.println("Reisproduct status: " + ov_p.getReisproductStatus());
