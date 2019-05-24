@@ -20,7 +20,6 @@ public class OVChipkaart_Product {
 	public int getOvproductID() {
 		return ovproductID;
 	}
-	// Yassine Benhadi V1E
 	public void setOvproductID(int ovproductID) {
 		this.ovproductID = ovproductID;
 	}
