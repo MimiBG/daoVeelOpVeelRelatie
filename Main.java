@@ -2,7 +2,7 @@ package daoVeelOpVeelRelatie;
 
 import java.sql.SQLException;
 
-public class Main3 {
+public class Main {
 
 	public static void main(String[] args) throws SQLException {
 		ProductDAO pDAO = new ProductDAOImpl();
